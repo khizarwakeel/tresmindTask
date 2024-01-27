@@ -1,0 +1,287 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto' Calibri !important;
+}
+
+.customHeader {
+    background-color: rgb(243, 243, 243) !important;
+    position: sticky;
+    top: 0;
+    z-index: 15;
+}
+
+.tresmingLogo {
+    width: 80px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+    .tresmingLogo {
+        width: 50px;
+        object-fit: contain;
+    }
+}
+
+.itemsColor {
+    color: gray;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #3793bf;
+}
+
+.activeLink {
+    color: #3793bf;
+}
+
+.spaceInNav {
+    margin: 0px 20px;
+}
+
+.dropdown-menu {
+    width: 90%;
+    background-color: #f3f3f3;
+}
+
+.navbar-toggler {
+    padding: 0px;
+    border: none;
+    color: #f3f3f3;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-item {
+        margin-bottom: 1rem;
+    }
+
+    .HomeTop {
+        margin-top: 1rem;
+    }
+}
+
+.imgSize {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.wellcomeCont {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .wellcomeCont {
+        margin-top: 2rem;
+    }
+}
+
+.contColor {
+    color: #3793bf;
+}
+
+/* .imgCent {
+    border-radius: 5px;
+    object-fit: contain;
+} */
+
+.WelcomeConMain {
+    margin-top: 3rem;
+    display: flex;
+    gap: 30px;
+    color: gray;
+}
+
+.setBtter {
+    line-height: 42px;
+    color: black
+}
+
+.gapTopPara {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .WelcomeConMain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgCent {
+        width: 100%;
+    }
+}
+
+.contactImage {
+    background-image: url(./assets/images/karachi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    color: white;
+    height: 100vh;
+}
+
+.iconWidth {
+    height: 20px;
+    width: 20px;
+}
+
+.heightCont {
+    height: 100%;
+}
+
+.contactflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+    .contactflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+}
+
+
+.backgroundColor {
+    background-color: white;
+    height: 28rem;
+    width: 20rem;
+    border-radius: 5px;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .backgroundColor {
+        background-color: white;
+        height: 27rem;
+        width: 20rem;
+        border-radius: 5px;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .backgroundColor {
+        background-color: white;
+        height: 18rem;
+        width: 18rem;
+        border-radius: 5px;
+        color: black;
+    }
+
+    .formHead {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .contactImage {
+        margin-top: 2rem;
+    }
+}
+
+
+.formMax {
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.btn {
+    background-color: #3793bf;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #3793bf;
+    color: white;
+}
+
+.footerLogo {
+    width: 80px;
+}
+
+.logoDiv {
+    background-color: white;
+    display: inline-block;
+    margin: auto;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.flexItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDesi {
+    padding-top: 40px;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 425px) {
+    .services {
+        display: flex;
+        gap: 20px;
+        margin-top: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.iconsFlex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.iconSize {
+    font-size: 24px;
+}
+
+.setMargin {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    top: 0%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.z-Index {
+    z-index: 10
+}
